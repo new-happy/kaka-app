@@ -1,0 +1,44 @@
+.detailed{
+  background-color: #fff;
+}
+.detailed-title{
+  display: flex;
+  justify-content: space-between;
+}
+.detailed-title span img{
+  width: 20%;
+  height: 100%;
+}
+.detailed-title span{
+  font-size: 1.3em;
+  display: flex;
+  line-height: 2.5em;
+}
+
+.detailed-title span:nth-child(2){
+  width: 33%;
+}
+.detailed-main>div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #ccc;
+}
+.detailed-main>div img{
+  width: 10%;
+  height: 100%;
+}
+.fen{
+  width: 20%;
+  text-align: center;
+}
+.detailed-main>div p{
+  margin: 0;
+}
+.detailed-main>div div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+}

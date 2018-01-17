@@ -1,0 +1,34 @@
+.about{
+  background-color: #fff;
+}
+.about>div:nth-child(1){
+  width: 35%;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+.about>div img{
+  width: 100%;
+}
+.about>div span{
+  line-height: 3.5em;
+}
+.about>div:nth-child(2){
+  padding-left:1em;
+}
+.about>div p{
+  margin: 0;
+  padding:0.7em 0;
+  border-bottom: 1px solid #ccc;
+}
+.about>div p:nth-child(4){
+  border:0;
+}
+.about>div:nth-child(2) h3{
+  font-size: 1em;
+  font-weight: 200;
+  width: 80%;
+  margin: 0 auto;
+  text-indent: 1.5em;
+  color: rgba(0,0,0,0.65);
+  padding-bottom: 9em;
+}

@@ -1,0 +1,31 @@
+.news-main>div:nth-child(1) img{
+  width: 10%;
+}
+.news-main>div img{
+  height: 100%;
+  margin-right: 1em;
+}
+.news-main>div{
+  display: flex;
+  padding: 1em 0.5em 0 0.5em;
+}
+.news-main>div div{
+  flex:1;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.news-main>div div span{
+  position: absolute;
+  bottom: 0.5em;
+  right: 1em;
+}
+.news-main>div div p{
+  margin: 0;
+  font-size: 0.8em;
+  padding-bottom: 2em;
+}
+.news-main>div div h2{
+  font-size: 1em;
+  margin: 0;
+  font-weight: 200;
+}

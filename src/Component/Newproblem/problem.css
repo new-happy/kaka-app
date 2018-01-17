@@ -1,0 +1,25 @@
+
+.Problem>div:nth-child(2){
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 17%
+}
+.Problem div:nth-child(2) div div{
+  display: flex;
+}
+.Problem div:nth-child(2) div div:nth-child(1) p{
+color: #8f8f8f
+}
+.Problem div:nth-child(2) p{
+  font-size: 0.8em;
+  color: #ccc;
+}
+.Problem div:nth-child(2)>div>div>p:nth-child(1){
+  width: 8%;
+  font-size: 0.8em;
+}
+.Problem div:nth-child(2)>div>div:nth-child(2)>p:nth-child(1){
+  width: 23%;
+  font-size: 0.8em;
+  color: #8f8f8f;
+}

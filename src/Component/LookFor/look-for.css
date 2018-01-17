@@ -1,0 +1,58 @@
+.look-for>div{
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 1em;
+  position: relative;
+}
+.looks-title{
+  display: flex;
+  justify-content: space-between;
+}
+.looks-title>img{
+  width: 7%;
+  height: 100%;
+}
+.looks-title>div>a img{
+  width: 10%;
+  position: absolute;
+  top:-0.5em;
+  left: -0.5em;
+}
+.looks-title>div span{
+  padding-left: 1.5em;
+}
+.looks-title>div span img{
+  width: 25%;
+  height: 100%;
+}
+.looks-pic{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.looks-pic img{
+  width: 30%;
+  height: 100%;
+}
+.look-for div:nth-child(4) .looks-pic img{
+  width: 100%;
+}
+.looks-address{
+  padding:1em 0;
+}
+.looks-address>div{
+  display: flex;
+  justify-content: flex-end;
+}
+.looks-address>div:nth-child(1) img{
+  width: 8%;
+}
+.looks-address>div:nth-child(2) img{
+  width: 48%;
+}
+.imgUrl{
+  width: 100%;
+}

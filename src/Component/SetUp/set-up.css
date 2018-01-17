@@ -1,0 +1,40 @@
+.setup-title{
+  background:url('../images/header.png');
+}
+.setup-title>div{
+  width: 25%;
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
+.setup-title>div img{
+  width: 100%;
+}
+.setzhuangtai>div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-left: 1.5em;
+  padding-right: 1em;
+}
+.setzhuangtai>div img{
+  width: 5%;
+  height: 100%;
+}
+.setzhuangtai>div p{
+  margin: 0;
+  padding: 1em 0;
+}
+.setzhuangtai>div p:nth-child(1){
+  flex:1;
+}
+.setzhuangtai>div span{
+  background-color: #ed1717;
+}
+.set-up .submit-a{
+  width: 80%;
+  margin: 0 auto;
+}
+.setzhuangtai{
+  padding-bottom: 2em;
+}

@@ -1,0 +1,28 @@
+.feedback-down>div{
+  background-color: #fff;
+}
+.feedback-down p,.feedback-down>div{
+  padding: 0.5em 1em;
+  margin: 0;
+}
+.feedback-down textarea{
+  width: 90%;
+  height: 6em;
+  resize: none;
+  margin: 1.2em;
+}
+.feedback .submit-a{
+  width: 80%;
+  margin: 0 auto;
+}
+.feedback>div:nth-child(3){
+  background-color: #fff;
+  margin-bottom: 5em;
+}
+.feedback>div h2{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1em;
+  border-bottom: 1px solid #ccc;
+  line-height: 2.5em;
+}

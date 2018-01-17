@@ -1,0 +1,64 @@
+.infor-mation{
+  background:url('../images/header.png');
+  background-color: #fff;
+}
+.infor-title{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+.infor-title>img{
+  width: 100%;
+}
+.infor-title span{
+  font-size: 1.1em;
+  line-height: 3em;
+}
+.infor-title>span img{
+  width: 20%;
+}
+.user-infor div:nth-child(2){
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.user-infor>div button{
+  background: rgba(0,0,0,0);
+  border: 1px solid #6f725e;;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  width: 4em;
+}
+.user-infor div:nth-child(3){
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.user-infor div:nth-child(3) span{
+  color: #fff;
+  line-height: 3em;
+}
+.infor-footer{
+  border-top: 1em solid #ccc;
+  background-color: #fff;
+}
+.infor-footer h2{
+  width: 90%;
+  font-size: 1em;
+  padding: 0.5em 0;
+  margin: 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+.infor-footer>div{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6.3em 0;
+}
+.infor-footer>div img{
+  width: 100%;
+}

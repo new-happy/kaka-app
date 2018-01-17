@@ -1,0 +1,63 @@
+.integral{
+  background-color: #fff;
+}
+.integral-down{
+  padding: 1em;
+}
+.integral-down div:nth-child(1) div{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.integral-down div:nth-child(1) div button{
+  width: 23%;
+  border: 1px solid #fac3c3;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  outline: none;
+  line-height: 2em;
+  font-size: 0.8em;
+}
+.integral-down div:nth-child(1) span{
+  width: 21%;
+}
+.integral .integral-down .active{
+  background-color: #ed1717;
+  color: #fff;
+}
+.integral-down>div:nth-child(2){
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.integral-down>div:nth-child(2) input{
+  width: 50%;
+  border: 1px solid #fac3c3;
+  border-radius: 5px;
+  outline: none;
+  text-indent: 1em;
+}
+.integral-down>div:nth-child(3) p{
+  margin: 1em 0;
+}
+.integral-down>div:nth-child(3) div{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.integral-down>div:nth-child(3) div button{
+  width: 48%;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fac3c3;
+  outline: none;
+}
+.integral-down>div:nth-child(3) div button img{
+  width: 30%;
+}
+.integral .submit-a{
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0;
+}

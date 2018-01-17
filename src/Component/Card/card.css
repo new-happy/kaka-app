@@ -1,0 +1,77 @@
+.card-title{
+  background:url('../images/header.png');
+  position: relative;
+}
+.card-title div{
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 2em 0;
+
+}
+.card-title div img{
+  width: 70%;
+  margin: 0 auto;
+}
+.card-title>div>span:nth-child(1) img{
+  width: 25%;
+  height: 100%;
+  margin: 0;
+  margin-top: 0.2em;
+}
+.card-title>div>span:nth-child(1){
+  position: absolute;
+  top: 5em;
+  right: 2em;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 5em;
+  line-height: 1.6em;
+}
+.card-title div span{
+  color: #fff;
+  line-height: 2.5em;
+}
+.card-title div button{
+  background: rgba(0,0,0,0);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+.card-down div div{
+  background-color: #fff;
+  padding: 0.3em 0 0.3em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.card-down>div:nth-child(2){
+  margin: 0.5em 0;
+}
+.card-down div span{
+  width: 85%;
+  line-height: 2.5em;
+  display: flex;
+  color: #6f6f6f;
+  padding-right: 1em;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.card-down div>img{
+  margin-top: 0.8em;
+}
+.card-down>div img{
+  width: 5%;
+  height: 100%;
+}
+.card-downa>div:last-child span{
+  border: none;
+}
+.card-downb>a:last-child div span{
+  border: none;
+}

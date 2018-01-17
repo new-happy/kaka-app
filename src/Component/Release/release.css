@@ -1,0 +1,27 @@
+.release textarea {
+  padding: 1em;
+  margin: 0;
+  height: 25vh;
+  resize: none;
+  border: none;
+}
+.release-main{
+  background-color: #fff;
+}
+.release-main p{
+  width: 100%;
+  text-align: right;
+  padding: 0 1em;
+  margin: 0;
+}
+.anticon-plus:before {
+  font-size: 5em;
+}
+.release-set{
+  display: flex;
+  background-color: #fff;
+}
+.release-set span:nth-child(2){
+  display: flex;
+  align-items: center;
+}

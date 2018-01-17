@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  background-color: rgba(17, 17, 17, 1);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+}
+.footer>div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.3em;
+}
+.footer>div span{
+  text-align: center;
+}
+.footer>div img{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0.3em;
+}
+.footer>div:nth-child(3) img{
+  margin-top: -25%;
+  margin-bottom: 0.4em;
+}
+.footer .active{
+  color: red;
+}

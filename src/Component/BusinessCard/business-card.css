@@ -1,0 +1,14 @@
+.business-card>div{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding:60% 0;
+}
+.business-card>div img{
+    width: 40%;
+    margin-left: 4em;
+    margin-bottom: 1em;
+}
+.business-card>div p{
+  color: #ccc;
+}

@@ -1,0 +1,56 @@
+.tixian>div {
+  display: flex;
+  padding: 1em;
+  align-items:center;
+  border-bottom: 1px solid #ccc;
+}
+.tixian>div div{
+  flex: 1;
+}
+.tixian>div img{
+  width: 10%;
+  height: 100%;
+}
+.tixian>div p{
+  margin: 0;
+  line-height: 2em;
+}
+.tixian>div div{
+  margin-left: 2em;
+}
+.tixian>div span{
+  font-size: 1.5em;
+}
+.tixian>div button{
+  width: 25%;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+}
+.account-down div:nth-child(1){
+  width: 40%;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+.account-down div:nth-child(1) img{
+  width: 100%;
+}
+.account-down div:nth-child(2){
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.account-down div:nth-child(2) img{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+.account-down div:nth-child(2) span{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #777;
+}

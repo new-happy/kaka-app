@@ -1,0 +1,116 @@
+.the-task{
+  background-color: #fff;
+}
+.client{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1.5em;
+}
+.client img{
+  width: 100%;
+}
+.client span{
+  line-height: 3em;
+  font-size: 1.3em;
+}
+.entrust{
+  padding: 1em;
+  border-top: 15px solid #f4f4f4;
+  border-bottom: 15px solid #f4f4f4;
+}
+.entrust div{
+  display: flex;
+  justify-content: flex-end;
+}
+.entrust div h1{
+  font-size: 3em;
+  line-height: 1em;
+}
+.entrust>img{
+  width: 50%;
+}
+.entrust div:nth-child(3) img{
+  width: 12%;
+  height: 100%;
+}
+.entrust div:nth-child(4) img{
+  width: 7%;
+  height: 100%;
+}
+.entrust div span{
+  line-height: 2em;
+}
+.buttona{
+  padding: 0 3em;
+  background-color: #f4f4f4;
+}
+.buttona>button {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid red;
+  outline: none;
+  line-height: 2em;
+  background:url('../images/header.png');
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+.masking{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background:rgba(0,0,0,0.9);
+}
+.masking p{
+  color: #fff;
+  margin: 0;
+}
+.masking .masking-title{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 4em;
+}
+.masking-title img{
+  width: 60%;
+}
+.masking-title h2{
+  color: #fff;
+  line-height: 3em;
+}
+.masking>div{
+  width: 80%;
+  margin: 0 auto;
+}
+.masking>div:nth-child(2){
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 2em;
+}
+.masking>div:nth-child(3){
+  padding-top: 2em;
+}
+.masking .prompt{
+  width: 30%;
+  padding-top: 6em;
+}
+.prompt button{
+  width: 100%;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  line-height: 2em;
+  border-radius: 5px;
+  outline: none;
+}
+.prompt>div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.prompt>div span{
+  color: #fff;
+}
+.prompt>div input{
+  margin-left: 1em;
+}
