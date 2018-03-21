@@ -47,6 +47,7 @@ class Login extends Component {
          <img src={imgSrc} alt=""/>
        </div>
        <div className="users">
+         <span>用户名：13718238947  密码：a309615655</span>
          <div>
            <img src={imgSrc1} alt=""/>
            <input type="text" placeholder="请输入手机号"
