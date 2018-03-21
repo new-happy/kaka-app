@@ -115,7 +115,7 @@ class LookFor extends Component {
           <div>
             <span><img src={imgSrc3} alt=""/>{item.look}</span>
             <span><img src={imgSrc1} alt=""/>{item.hot}</span>
-            <span><img src={imgSrc2} alt=""/>{item.comment}</span>
+            <Link to="/comments"><span><img src={imgSrc2} alt=""/>{item.comment}</span></Link>
           </div>
         </div>
       </div>)
